@@ -89,3 +89,133 @@ Deleted branch test (was 6d4bbc7).
 
 lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (dev)
 $
+
+
+#  Bundle1 Exercise 2
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
+$ git stash
+Saved working directory and index state WIP on main: 3cb824a added my solutions on the Readme file
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
+$ git stash
+Saved working directory and index state WIP on main: 3cb824a added my solutions on the Readme file
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
+$ git stash pop about.html
+error: about.html is not a valid reference
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
+$ git add about.html
+fatal: pathspec 'about.html' did not match any files
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
+$ git stash pop
+On branch main
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   team.html
+
+Dropped refs/stash@{0} (a0e37f6ac10c185df7f30d4c00d1b2a768e64c93) 
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
+$ git stash pop
+On branch main
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   about.html
+        new file:   home.html
+        new file:   team.html
+
+Dropped refs/stash@{0} (15c004ddb331bf05cf47c9693de70acdb0a59c86)
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
+$ git add about.html
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
+$ git stash push -m "stash changes for about.html" --about.html
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
+$ git stash
+Saved working directory and index state WIP on main: 3cb824a added my solutions on the Readme file
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
+$ git stash list
+stash@{0}: WIP on main: 3cb824a added my solutions on the Readme file
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
+$ git stash pop stash@{1}
+fatal: log for 'stash' only has 1 entries
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
+$ git stash pop stash@{0}
+On branch main
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   about.html
+        new file:   home.html
+        new file:   team.html
+
+Dropped stash@{0} (8a3aca4f512e65646c8794cba09ecebef5ec3e9f)
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
+$ git add .
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
+$ git commit -m "current changes"
+[main 093724c] current changes
+ 3 files changed, 54 insertions(+)
+ create mode 100644 about.html
+ create mode 100644 home.html
+ create mode 100644 team.html
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 4 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
+$ git reset
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
+$ git checkout -- team.html
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 4 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
+$ git push
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 361 bytes | 361.00 KiB/s, done.      
+Total 2 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/kezagiselle/Gym-Git-Exercises-Solution.git
+   70e804c..093724c  main -> main
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
+$
