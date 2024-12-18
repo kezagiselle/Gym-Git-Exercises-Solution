@@ -1,6 +1,8 @@
 # Gym-Git-Exercises-Solution
+##Bundle1
+### Exercise 1
 lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
-$ git branch master
+$ `git branch master`
 
 lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
 $ git checkout -b master
