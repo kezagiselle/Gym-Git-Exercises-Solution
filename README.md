@@ -4,6 +4,7 @@
 
 lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
 $ `git branch master`
+$ `git branch master`
 
 lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
 $ `git checkout -b master`
@@ -93,9 +94,8 @@ Deleted branch test (was 6d4bbc7).
 lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (dev)
 $
 
-
-#### Bundle1
-##### Exercise 2 
+#### Bundle 1
+##### Exercises 2
 
 lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
 $ `git stash`
