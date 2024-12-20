@@ -224,5 +224,6 @@ nothing to commit, working tree clean
 
 lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
 $
-##### Bundle 2
+```
+Bundle 2
 ###### Exercise 1
