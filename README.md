@@ -1,7 +1,7 @@
 # Gym-Git-Exercises-Solution
 ## Bundle 1
 ### Exercise 1
-
+```bash
 lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
 
 $ `git branch master`
@@ -115,11 +115,11 @@ $ `git branch -d test`
 Deleted branch test (was 6d4bbc7).
 
 lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (dev)
-$
+```
 
 #### Bundle 1
 ##### Exercises 2
-
+```bash
 lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
 $ `git stash`
 Saved working directory and index state WIP on main: 3cb824a added my solutions on the Readme file
@@ -247,8 +247,10 @@ nothing to commit, working tree clean
 
 lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
 $
+```
 ##### Bundle 2
 ###### Exercise 1
+```bash
 lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
 
 $ `git branch ft/bundle-2`
@@ -310,9 +312,10 @@ no changes added to commit (use "git add" and/or "git commit -a")
 lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
 
 $ `git add .`
+```
 
 ####### Exercise 2
-
+```bash
 lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
 
 $ `git checkout -b ft/service.redesign`
@@ -566,3 +569,4 @@ $ `git diff`
 
 lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (ft/service-redesign)
 $
+```
