@@ -1227,7 +1227,57 @@ lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
 $
 ```
 ## Exercise 3
+``` bash
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
 
+$ `git checkout bugfix`
+Switched to branch 'bugfix'
+M       git-cafe-exercise
 
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (bugfix)
+
+$ `git add .`
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (bugfix)
+
+$ `git commit -m " changing the phone number in the index file"`
+On branch bugfix
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)      
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+        modified:   git-cafe-exercise (modified content)
+
+no changes added to commit (use "git add" and/or "git commit -a") 
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (bugfix)
+
+$ `git commit -a`
+On branch bugfix
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)      
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+        modified:   git-cafe-exercise (modified content)
+
+no changes added to commit (use "git add" and/or "git commit -a") 
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (bugfix)
+
+$ `git push origin bugfix`
+Everything up-to-date
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (bugfix)
+
+$ `git checkout main`
+Switched to branch 'main'
+M       git-cafe-exercise
+Your branch is up to date with 'origin/main'.
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
+$ 
+```
+## Exercise 4
+Done on GitHub
 
 
