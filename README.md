@@ -793,5 +793,77 @@ $
 ```
 ## Bundle 4
 ## Exercise 1
+```bash
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
+
+$ `git remote add git-copy https://github.com/kezagiselle/git-copy.git`
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
+
+$ `git add .`
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
+
+$ `git commit -m "made changes on the on home file"`
+[main d472698] made changes on the on home file
+ 1 file changed, 1 insertion(+)
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
+
+$ `git push origin main`
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 306 bytes | 306.00 KiB/s, done.      
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/kezagiselle/Gym-Git-Exercises-Solution.git  
+   efc67e9..d472698  main -> main
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
+
+$ `git push git-copy`
+To https://github.com/kezagiselle/git-copy.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/kezagiselle/git-copy.git'
+hint: Updates were rejected because the remote contains work that 
+you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote 
+changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for 
+details.
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
+
+$ `git add .`
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
+
+$ `git commit -m "some changes"`
+[main 2b89848] some changes
+ 1 file changed, 1 insertion(+)
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
+
+$ `git push git-copy`
+To https://github.com/kezagiselle/git-copy.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/kezagiselle/git-copy.git'
+hint: Updates were rejected because the remote contains work that 
+you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote 
+changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for 
+details.
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
+$
+```
+## Exercise 2
 
 
