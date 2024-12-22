@@ -248,7 +248,7 @@ nothing to commit, working tree clean
 lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
 $
 ```
-##### Bundle 
+##### Bundle 2
 ###### Exercise 1
 ```bash
 lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
@@ -314,7 +314,7 @@ lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
 $ `git add .`
 ```
 
-####### Exercise 2
+### Exercise 2
 ```bash
 lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
 
@@ -570,3 +570,7 @@ $ `git diff`
 lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (ft/service-redesign)
 $
 ```
+
+#### Bundle 3
+### Exercise 1
+git
