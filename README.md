@@ -571,8 +571,8 @@ lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (ft/service-
 $
 ```
 
-#### Bundle 3
-### Exercise 1
+## Bundle 3
+## Exercise 1
 ```bash
 lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (ft/contact-page)
 
@@ -609,4 +609,186 @@ the rest of codes were about PR on Github
 ```
 
 ## Exercise 2
+```bash
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (ft/faq-page)
+
+$ `git checkout ft/home-page-redesign`
+Switched to branch 'ft/home-page-redesign'
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (ft/home-page-redesign)
+
+$ `git checkout main`
+Switched to branch 'main'
+
+Your branch is behind 'origin/main' by 13 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
+
+$ `git add .`
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
+
+$ `git commit -m "changes on the main"`
+[main 172e00e] changes on the main
+ 1 file changed, 2 insertions(+)
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
+
+$ `git push origin main`
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
+
+$ `git checkout ft/home-page-redesign`
+Switched to branch 'ft/home-page-redesign'
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (ft/home-page-redesign)
+
+$ `git rebase`
+There is no tracking information for the current branch.
+Please specify which branch you want to rebase against.
+See git-rebase(1) for details.
+
+    git rebase '<branch>'
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=<remote>/<branch> ft/home-page-redesign
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (ft/home-page-redesign)
+
+$ `git rebase main`
+Auto-merging team.html
+CONFLICT (content): Merge conflict in team.html
+error: could not apply cd7be99... made some changes in the team.html
+hint: Resolve all conflicts manually, mark them as resolved with  
+hint: "git add/rm <conflicted_files>", then run "git rebase --continue".
+hint: You can instead skip this commit: run "git rebase --skip".  
+hint: To abort and get back to the state before "git rebase", run 
+"git rebase --abort".
+Could not apply cd7be99... made some changes in the team.html
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (ft/home-page-redesign|REBASE 6/9)
+$ ^C
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (ft/home-page-redesign|REBASE 6/9)
+
+$  `git add/rm team.html`
+git: 'add/rm' is not a git command. See 'git --help'.
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (ft/home-page-redesign|REBASE 6/9)
+
+$ `git add team.html`
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (ft/home-page-redesign|REBASE 6/9)
+
+$ `git rebase main`
+fatal: It seems that there is already a rebase-merge directory, and
+I wonder if you are in the middle of another rebase.  If that is the
+case, please try
+        git rebase (--continue | --abort | --skip)
+If that is not the case, please
+        rm -fr ".git/rebase-merge"
+and run me again.  I am stopping in case you still have something 
+valuable there.
+
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (ft/home-page-redesign|REBASE 6/9)
+
+$ `git add .`
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (ft/home-page-redesign|REBASE 6/9)
+
+$ `git commit -m "did some changes"`
+[detached HEAD bad8544] did some changes
+ 2 files changed, 5 insertions(+)
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (ft/home-page-redesign|REBASE 6/9)
+
+$ `git push origin ft/home-page-redesign`
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: 
+remote: Create a pull request for 'ft/home-page-redesign' on GitHub by visiting:
+remote:      https://github.com/kezagiselle/Gym-Git-Exercises-Solution/pull/new/ft/home-page-redesign
+remote:
+To https://github.com/kezagiselle/Gym-Git-Exercises-Solution.git  
+ * [new branch]      ft/home-page-redesign -> ft/home-page-redesign
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (ft/home-page-redesign|REBASE 6/9)
+
+$ `git checkout main`
+error: Your local changes to the following files would be overwritten by checkout:
+        README.md
+Please commit your changes or stash them before you switch branches.
+Aborting
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (ft/home-page-redesign|REBASE 7/9)
+
+$ `git add .`
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (ft/home-page-redesign|REBASE 7/9)
+
+$ `git commit -m "changes on this branch"`
+[detached HEAD 5adabd7] changes on this branch
+ 1 file changed, 9 insertions(+), 6 deletions(-)
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (ft/home-page-redesign|REBASE 7/9)
+
+$ `git push origin ft/home-page-redesign`
+Everything up-to-date
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (ft/home-page-redesign|REBASE 7/9)
+
+$ `git checkout main`
+Warning: you are leaving 8 commits behind, not connected to
+any of your branches:
+
+  5adabd7 changes on this branch
+  3a0766b made some changes in the team.html
+  bad8544 did some changes
+  1454843 did some changes
+ ... and 4 more.
+
+If you want to keep them by creating a new branch, this may be a good time
+to do so with:
+
+ git branch <new-branch-name> 5adabd7
+
+Switched to branch 'main'
+Your branch and 'origin/main' have diverged,
+and have 1 and 13 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (ft/home-page-redesign|REBASE 7/9)
+
+$ `git pull origin main`
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (3/3), 2.59 KiB | 189.00 KiB/s, done.
+From https://github.com/kezagiselle/Gym-Git-Exercises-Solution
+ * branch            main       -> FETCH_HEAD
+   8edb7fa..826683f  main       -> origin/main
+Merge made by the 'ort' strategy.
+ README.md | 390 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-
+ faq.html  |  23 ++++
+ team.html |   4 +
+ 3 files changed, 414 insertions(+), 3 deletions(-)
+ create mode 100644 faq.html
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (ft/home-page-redesign|REBASE 7/9)
+
+$ `git rebase --abort`
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (ft/home-page-redesign)
+
+$ `git checkout main`
+Switched to branch 'main'
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
+$
+```
 
