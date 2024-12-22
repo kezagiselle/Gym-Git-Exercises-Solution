@@ -1,6 +1,6 @@
 # Gym-Git-Exercises-Solution
 ## Bundle 1
-### Exercise 1
+## Exercise 1
 ```bash
 lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
 
@@ -117,8 +117,8 @@ Deleted branch test (was 6d4bbc7).
 lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (dev)
 ```
 
-#### Bundle 1
-##### Exercises 2
+
+## Exercises 2
 ```bash
 lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
 $ `git stash`
@@ -248,8 +248,8 @@ nothing to commit, working tree clean
 lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
 $
 ```
-##### Bundle 2
-###### Exercise 1
+## Bundle 2
+## Exercise 1
 ```bash
 lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
 
@@ -314,7 +314,7 @@ lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
 $ `git add .`
 ```
 
-### Exercise 2
+## Exercise 2
 ```bash
 lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
 
@@ -792,7 +792,6 @@ lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
 $
 ```
 ## Bundle 4
-****************
 ## Exercise 1
 
 
