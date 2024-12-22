@@ -1077,6 +1077,70 @@ $
 ```
 ## Bundle 6
 ## Exercise 1
+``` bash
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
+
+$ `git branch ft/cafe`
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
+
+$ `git checkout ft/cafe`
+Switched to branch 'ft/cafe'
+M       git-cafe-exercise
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (ft/cafe)
+
+$ `git add .`
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (ft/cafe)
+
+$ `git commit -m "changes on this branch"`
+On branch ft/cafe
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)      
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+        modified:   git-cafe-exercise (modified content)
+
+no changes added to commit (use "git add" and/or "git commit -a") 
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (ft/cafe)
+
+$ `git add .`
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (ft/cafe)
+
+$ `git commit -m "changes on this branch"`
+On branch ft/cafe
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)      
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+        modified:   git-cafe-exercise (modified content)
+
+no changes added to commit (use "git add" and/or "git commit -a") 
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (ft/cafe)
+
+$ `git add git-cafe-exercise`
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (ft/cafe)
+
+$ `git commit -m "changes on this branch"`
+On branch ft/cafe
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)      
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+        modified:   git-cafe-exercise (modified content)
+
+no changes added to commit (use "git add" and/or "git commit -a") 
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (ft/cafe)
+$
+```
+## Exercise 2
+
 
 
 
