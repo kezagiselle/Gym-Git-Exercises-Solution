@@ -605,4 +605,8 @@ Switched to branch 'ft/faq-page'
 
 lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (ft/faq-page)
 $
+the rest of codes were about PR on Github
 ```
+
+## Exercise 2
+
