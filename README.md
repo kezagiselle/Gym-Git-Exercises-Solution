@@ -865,5 +865,173 @@ lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
 $
 ```
 ## Exercise 2
+```bash
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
+
+$ `git checkout ft/footer`
+Switched to branch 'ft/footer'
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (ft/footer)
+
+$ `git add .`
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (ft/footer)
+
+$ `git commit -m "first commit on this branch"`
+[ft/footer 481a658] first commit on this branch
+ 1 file changed, 1 insertion(+)
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (ft/footer)
+
+$ `git push origin ft/footer`
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 292 bytes | 292.00 KiB/s, done.      
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+remote: 
+remote: Create a pull request for 'ft/footer' on GitHub by visiting:
+remote:      https://github.com/kezagiselle/Gym-Git-Exercises-Solution/pull/new/ft/footer
+remote:
+To https://github.com/kezagiselle/Gym-Git-Exercises-Solution.git
+ * [new branch]      ft/footer -> ft/footer
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (ft/footer)
+
+$ `git add .`
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (ft/footer)
+
+$ `git commit -m "second commit on this branch"`
+[ft/footer 3d3829f] second commit on this branch
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (ft/footer)
+
+$ `git push origin ft/footer`
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 321 bytes | 321.00 KiB/s, done.      
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/kezagiselle/Gym-Git-Exercises-Solution.git  
+   481a658..3d3829f  ft/footer -> ft/footer
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (ft/footer)
+
+$ `git checkout main`
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
+
+$ `git branch ft/squashing`
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
+
+$ `git merge --squash ft/footer`
+Auto-merging team.html
+CONFLICT (content): Merge conflict in team.html
+Squash commit -- not updating HEAD
+Automatic merge failed; fix conflicts and then commit the result. 
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
+
+$ `git merge --squash ft/footer`
+error: Your local changes to the following files would be overwritten by merge:
+  team.html
+<stdin>:10: trailing whitespace.
+
+warning: 1 line adds whitespace errors.
+Merge with strategy ort failed.
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
+
+$ `git add .`
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
+
+$ `git commit -m "changes"`
+[main df812ff] changes
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
+
+$ `git push origin main`
+To https://github.com/kezagiselle/Gym-Git-Exercises-Solution.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/kezagiselle/Gym-Git-Exercises-Solution.git'
+hint: Updates were rejected because the remote contains work that 
+you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote 
+changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for 
+details.
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
+
+$ `git merge --squash ft/footer`
+Automatic merge went well; stopped before committing as requested
+Squash commit -- not updating HEAD
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
+
+$ `git commit -m "squashed changes"`
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
+
+$ `git push origin main`
+To https://github.com/kezagiselle/Gym-Git-Exercises-Solution.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/kezagiselle/Gym-Git-Exercises-Solution.git'
+hint: Updates were rejected because the remote contains work that 
+you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote 
+changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for 
+details.
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
+
+$ `git commit -m "footer changes squashing"`
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
+
+$ `git push`
+To https://github.com/kezagiselle/Gym-Git-Exercises-Solution.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/kezagiselle/Gym-Git-Exercises-Solution.git'
+hint: Updates were rejected because the remote contains work that 
+you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote 
+changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for 
+details.
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
+$
+```
+## Bundle 5
+## Exercise 1
 
 
