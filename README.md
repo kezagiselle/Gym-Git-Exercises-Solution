@@ -573,4 +573,36 @@ $
 
 #### Bundle 3
 ### Exercise 1
-git
+```bash
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (ft/contact-page)
+
+$ `git checkout ft/team-page`
+Switched to branch 'ft/team-page'
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (ft/team-page)
+
+$ `git checkout ft/contact-page`
+Switched to branch 'ft/contact-page'
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (ft/contact-page)
+
+$ `git checkout ft/faq-page`
+error: pathspec 'ft/faq-page' did not match any file(s) known to git
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (ft/contact-page)
+
+$ `git checkout ft/faq-page`
+error: pathspec 'ft/faq-page' did not match any file(s) known to git
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (ft/contact-page)
+
+$ `git branch ft/faq-page`
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (ft/contact-page)
+
+$ `git checkout ft/faq-page`
+Switched to branch 'ft/faq-page'
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (ft/faq-page)
+$
+```
