@@ -1226,6 +1226,8 @@ Your branch is up to date with 'origin/main'.
 lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
 $
 ```
+## Exercise 3
+
 
 
 
