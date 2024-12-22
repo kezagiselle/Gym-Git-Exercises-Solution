@@ -1140,7 +1140,92 @@ lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (ft/cafe)
 $
 ```
 ## Exercise 2
+``` bash
 
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
+
+$ `git checkout -b bugfix`
+Switched to a new branch 'bugfix'
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (bugfix)
+
+$ `git add .`
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (bugfix)
+
+$ `git commit -m "changed the index-4 file"`
+On branch bugfix
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)      
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+        modified:   git-cafe-exercise (modified content)
+
+no changes added to commit (use "git add" and/or "git commit -a") 
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (bugfix)
+
+$ `git status`
+On branch bugfix
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)      
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+        modified:   git-cafe-exercise (modified content)
+
+no changes added to commit (use "git add" and/or "git commit -a") 
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (bugfix)
+
+$ `git add git-cafe-exercise`
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (bugfix)
+
+$ `git add .`
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (bugfix)
+
+$ `git  commit -m "describe the changes"`
+On branch bugfix
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)      
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+        modified:   git-cafe-exercise (modified content)
+
+no changes added to commit (use "git add" and/or "git commit -a") 
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (bugfix)
+
+$ `git add .`
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (bugfix)
+
+$ `git push origin ft/bugfix`
+error: src refspec ft/bugfix does not match any
+error: failed to push some refs to 'https://github.com/kezagiselle/Gym-Git-Exercises-Solution.git'
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (bugfix)
+
+$ `git push origin bugfix`
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: 
+remote: Create a pull request for 'bugfix' on GitHub by visiting: 
+remote:      https://github.com/kezagiselle/Gym-Git-Exercises-Solution/pull/new/bugfix
+remote:
+To https://github.com/kezagiselle/Gym-Git-Exercises-Solution.git  
+ * [new branch]      bugfix -> bugfix
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (bugfix)
+
+$ `git checkout main`
+Switched to branch 'main'
+M       git-cafe-exercise
+Your branch is up to date with 'origin/main'.
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
+$
+```
 
 
 
