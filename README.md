@@ -1036,5 +1036,47 @@ $
 it's done on Github 
 
 ## Exercise 2
+``` bash
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
+
+$ `git clone https://github.com/TheGymRwanda/git-cafe-exercise.git`
+Cloning into 'git-cafe-exercise'...
+remote: Enumerating objects: 107, done.
+remote: Counting objects: 100% (15/15), done.
+remote: Compressing objects: 100% (11/11), done.
+remote: Total 107 (delta 5), reused 4 (delta 4), pack-reused 92 (fReceiving objects: 100% (107/107), 1.95 MiB | 1.86 MiB/s, done.   
+
+Resolving deltas: 100% (5/5), done.
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
+
+$ `git add .`
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
+
+$ `git commit -m " changes on the index file"`
+[main 4cea631]  changes on the index file
+ 2 files changed, 4 insertions(+)
+ create mode 160000 git-cafe-exercise
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
+
+$ `git push origin main`
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 383 bytes | 383.00 KiB/s, done.      
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/kezagiselle/Gym-Git-Exercises-Solution.git
+   5afed0d..4cea631  main -> main
+
+lenovo@DESKTOP-QR2DGVN MINGW64 ~/Desktop/Gym-Git-Exercises-Solution (main)
+$
+```
+## Bundle 6
+## Exercise 1
+
 
 
